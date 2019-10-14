@@ -76,6 +76,9 @@ GEM
       msgpack (~> 1.0)
     bootsnap (1.4.5-java)
       msgpack (~> 1.0)
+    bootstrap-sass (3.4.1)
+      autoprefixer-rails (>= 5.2.1)
+      sassc (>= 2.0.0)
     builder (3.2.3)
     byebug (11.0.1)
     cancancan (3.0.1)
@@ -413,6 +416,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap (>= 1.4.2)
+  bootstrap-sass
   byebug
   capybara (>= 2.15)
   jbuilder (~> 2.7)

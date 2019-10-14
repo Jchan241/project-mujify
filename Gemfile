@@ -6,6 +6,8 @@ ruby '2.5.3'
 gem 'solidus'
 gem 'solidus_auth_devise'
 
+gem 'bootstrap-sass'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.0'
 # Use postgresql as the database for Active Record
