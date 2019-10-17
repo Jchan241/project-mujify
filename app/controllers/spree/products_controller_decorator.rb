@@ -1,3 +1,4 @@
+#needed @taxonomies, unable to inherent fron store controller
 class Spree::ProductsController
   prepend_before_action :load_taxonomies
 
