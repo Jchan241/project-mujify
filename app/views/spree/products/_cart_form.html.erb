@@ -4,6 +4,7 @@
       <div id="product-variants" class="col-lg-6 mt-4">
         <h3 class="product-section-title"><%= Spree.t(:variants) %></h3>
         <ul class="list-group">
+
           <% @product.variants_and_option_values(current_currency).each_with_index do |variant, index| %>
             <li class="list-group-item <%= "active" if index == 0 %>">
               <div class="form-check">
@@ -26,6 +27,7 @@
                 <% end %>
               </div>
             </li>
+
           <% end%>
         </ul>
       </div>

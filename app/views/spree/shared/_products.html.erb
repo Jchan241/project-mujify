@@ -10,6 +10,7 @@
       <%= Spree.t(:no_products_found) %>
     </div>
   <% elsif params.key?(:keywords) %>
+
     <div data-hook="products_search_results_heading_results_found">
       <h6 class="search-results-title"><%= Spree.t(:search_results, keywords: h(params[:keywords])) %></h6>
     </div>
@@ -17,6 +18,7 @@
 </div>
 
 <% if products.any? %>
+
   <div id="products" class="row d-flex" data-hook>
     <%= render partial: 'spree/products/product', collection: products, locals: { taxon: @taxon } %>
   </div>
