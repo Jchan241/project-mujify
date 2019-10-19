@@ -9,6 +9,9 @@
 #
 # In order to initialize a setting do:
 # config.setting_name = 'new value'
+require "#{Rails.root}/app/helpers/spree/frontend_helper_decorator.rb"
+
+
 Spree.config do |config|
   # Example:
   # Uncomment to stop tracking inventory levels in the application

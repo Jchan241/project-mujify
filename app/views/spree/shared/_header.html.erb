@@ -30,7 +30,7 @@
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <%= taxonomy.name %>
               </a>
-              <%= taxons_tree(taxonomy.root, @taxon, 1) %>
+              <%= nav_tree(taxonomy.root, @taxon, 1) %>
             </li>
           <% end %>
       </ul>
