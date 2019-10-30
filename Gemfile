@@ -9,7 +9,6 @@ gem 'spree_gateway', '~> 3.6'
 
 gem 'spree_api'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.0'
 # Use Puma as the app server

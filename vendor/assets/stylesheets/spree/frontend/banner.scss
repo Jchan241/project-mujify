@@ -1,6 +1,6 @@
 .banner {
-  // background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('https://res.cloudinary.com/deplit1df/image/upload/v1571303495/Artboard_1_fshjlv.png');
-  background: url('https://res.cloudinary.com/deplit1df/image/upload/v1571303495/Artboard_1_fshjlv.png');
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('https://res.cloudinary.com/deplit1df/image/upload/v1572392382/hand-wood-guitar-interior-cooking-kitchen-722995-pxhere.com_yehbjn.jpg');
+  // background: url('https://res.cloudinary.com/deplit1df/image/upload/v1572392382/hand-wood-guitar-interior-cooking-kitchen-722995-pxhere.com_yehbjn.jpg');
   background-size: cover;
   background-position: center;
   height: 60vh;
@@ -13,6 +13,11 @@
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+.banner-title {
+  color: white;
+  font-size: 5rem;
 }
 
 @media only screen and (max-width: 1000px) {
