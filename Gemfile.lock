@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/spree-contrib/spree_static_content.git
+  revision: ae27bd3e94138d882c19a2687a1acf38f2a6850a
+  specs:
+    spree_static_content (4.0.1)
+      deface (~> 1.5)
+      spree_core (>= 3.1.0, < 5.0)
+      spree_extension
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -277,6 +286,11 @@ GEM
       spree_core (= 4.0.0)
       spree_frontend (= 4.0.0)
       spree_sample (= 4.0.0)
+    spree_analytics_trackers (1.1.0)
+      deface (~> 1.0)
+      spree_backend (>= 3.1.0, < 5.0)
+      spree_core (>= 3.1.0, < 5.0)
+      spree_extension
     spree_api (4.0.0)
       doorkeeper (~> 5.2, >= 5.2.1)
       fast_jsonapi (~> 1.5)
@@ -406,9 +420,11 @@ DEPENDENCIES
   sass-rails (~> 5)
   selenium-webdriver
   spree (~> 4.0)
+  spree_analytics_trackers (~> 1.0)
   spree_api
   spree_auth_devise (~> 4.0)
   spree_gateway (~> 3.6)
+  spree_static_content!
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)
