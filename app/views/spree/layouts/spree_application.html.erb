@@ -10,19 +10,19 @@
   <body class="<%= body_class %>" id="<%= @body_id || 'default' %>" data-hook="body">
     <%= render partial: 'spree/shared/header' %>
 
-
+    <%= render partial: 'spree/home/home_banner' %>
     <div class="row" data-hook>
 
-
       <%#= render partial: 'spree/shared/sidebar' if content_for? :sidebar %>
-
-      <main
-        id="content"
-        class="mt-1 <%= !content_for?(:sidebar) ? "col-sm-12" : "col-sm-12" %>"
-        data-hook>
-        <%= flash_messages %>
-        <%= yield %>
-      </main>
+      <div class="container body-wrap">
+        <main
+          id="content"
+          class="mt-1 <%= !content_for?(:sidebar) ? "col-sm-12" : "col-sm-12" %>"
+          data-hook>
+          <%= flash_messages %>
+          <%= yield %>
+        </main>
+      </div>
 
       <%= yield :templates %>
     </div>
