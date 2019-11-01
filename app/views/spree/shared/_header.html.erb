@@ -18,7 +18,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <% if !current_page?('/login') %>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
   <% end %>
@@ -36,10 +36,10 @@
             </li>
           <% end %>
       </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <%= render partial: 'spree/shared/search' %>
+      </form>
     </div>
-    <form class="form-inline my-2 my-lg-0">
-      <%= render partial: 'spree/shared/search' %>
-    </form>
     <div id="link-to-cart" class="nav-item" data-hook>
       <noscript>
         <%= link_to_carts %>

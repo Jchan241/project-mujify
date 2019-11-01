@@ -1,6 +1,6 @@
-<% @taxons = @taxon && @taxon.parent ? @taxon.parent.children : Spree::Taxon.roots %>
+<%# @taxons = @taxon && @taxon.parent ? @taxon.parent.children : Spree::Taxon.roots %>
 <%= form_tag spree.products_path, method: :get,
-  class: "ml-2 form-inline" do %>
+  class: "form-inline my-2 my-lg-0 d-flex" do %>
 
   <%# cache [I18n.locale, @taxons] do %>
     <%#= select_tag :taxon,
