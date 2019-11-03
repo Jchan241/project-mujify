@@ -10,7 +10,6 @@
   <body class="<%= body_class %>" id="<%= @body_id || 'default' %>" data-hook="body">
     <%= render partial: 'spree/shared/header' %>
 
-    <%= render partial: 'spree/home/home_banner' %>
     <div class="row" data-hook>
 
       <%#= render partial: 'spree/shared/sidebar' if content_for? :sidebar %>
@@ -22,9 +21,9 @@
           <%= flash_messages %>
           <%= yield %>
         </main>
+        <%= yield :templates %>
       </div>
 
-      <%= yield :templates %>
     </div>
     <%= render partial: 'spree/shared/footer' %>
     <script src="https://kit.fontawesome.com/7bd7bd59ae.js" crossorigin="anonymous"></script>
