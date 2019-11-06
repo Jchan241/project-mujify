@@ -1,0 +1,16 @@
+.product-card {
+  text-decoration: none;
+  border: 1px solid #eee;
+}
+
+.card-body {
+  text-decoration: none;
+  :hover {
+    text-decoration: none;
+    transform: scale(1.01);
+  }
+}
+
+.product-card-text {
+  color: black;
+}

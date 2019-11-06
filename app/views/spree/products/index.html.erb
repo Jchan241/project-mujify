@@ -1,4 +1,5 @@
 <div class="container">
+
   <% if "spree/products" == params[:controller] && @taxon || @taxonomies.present? %>
     <% content_for :sidebar do %>
       <div data-hook="homepage_sidebar_navigation">
@@ -21,6 +22,7 @@
     </div>
   <% else %>
     <div data-hook="homepage_products">
+      <h2>All Products</h2>
       <% cache(cache_key_for_products) do %>
         <%= render partial: 'spree/shared/products', locals: { products: @products, taxon: @taxon } %>
       <% end %>
