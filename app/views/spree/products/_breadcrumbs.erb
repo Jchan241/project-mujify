@@ -1,0 +1,4 @@
+<% @product.taxons.each do |taxon| %>
+  <span><%= link_to taxon.name, seo_url(taxon) %></span> >
+<% end %>
+<%= @product.name %>
