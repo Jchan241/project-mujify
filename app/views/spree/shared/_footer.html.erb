@@ -1,16 +1,16 @@
 <div class="footer mt-5 py-5">
   <div class="links d-flex justify-content-around flex-wrap">
     <div class="support">
-      <li>Help</li>
+      <li class=footer-link><%= link_to "help",  "/help" %></li>
       <li>contact us</li>
     </div>
     <div class="policy">
-      <li>about us</li>
-      <li>terms & conditions</li>
+      <li class=footer-link><%= link_to "About us",  "/about" %></li>
+      <li class=footer-link><%= link_to "Terms & Conditions",  "/terms-and-conditions" %></li>
     </div>
     <div class="social-media">
-      <li><i class="fab fa-instagram"></i></li>
-      <li><i class="fab fa-facebook-f"></i></li>
+      <li class=footer-link><i class="fab fa-instagram"></i></li>
+      <li class=footer-link><i class="fab fa-facebook-f"></i></li>
     </div>
   </div>
 </div>
