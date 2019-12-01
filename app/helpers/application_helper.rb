@@ -16,11 +16,12 @@ module ApplicationHelper
       css_class = nil
 
       if simple_current_order.nil? || simple_current_order.item_count.zero?
-        text = "<span class='fas fa-shopping-bag'></span>"
+        text = fa_icon 'shopping-cart'
         css_class = 'empty'
       else
-        text = "<span class='fas fa-shopping-bag full-bag'></span>"
+        text = fa_icon 'shopping-cart', class: 'full-bag'
         css_class = 'full'
+
         # text = "<span class='fas fa-shopping-bag'></span> #{text}: (#{simple_current_order.item_count})
         #         <span class='amount'>#{simple_current_order.display_total.to_html}</span>"
         # css_class = 'full'

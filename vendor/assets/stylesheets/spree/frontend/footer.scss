@@ -5,4 +5,16 @@
 .footer-link {
   text-decoration: none;
   list-style-type: none;
+  padding: 8px 0 0 0;
+  a {
+    color: #111;
+    &:hover {
+      color: #666;
+      text-decoration: none;
+    }
+  }
+}
+
+.social-media-links {
+  font-size: 1.5em;
 }

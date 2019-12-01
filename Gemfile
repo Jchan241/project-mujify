@@ -15,6 +15,8 @@ gem 'spree_static_content', github: 'spree-contrib/spree_static_content'
 
 gem 'spree_analytics_trackers', '~> 1.0'
 
+gem 'font-awesome-rails'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.0'

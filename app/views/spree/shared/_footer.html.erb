@@ -1,16 +1,34 @@
 <div class="footer mt-5 py-5">
   <div class="links d-flex justify-content-around flex-wrap">
     <div class="support">
-      <li class=footer-link><%= link_to "help",  "/help" %></li>
-      <li>contact us</li>
+      <h6>Help</h6>
+      <li class="footer-link"><%= link_to "Customer Care",  "/help" %></li>
+      <li class="footer-link"><%= link_to "Shipping & Delivery",  "/help" %></li>
+      <li class="footer-link"><%= link_to "Terms & Conditions",  "/help" %></li>
+      <li class="footer-link"><%= link_to "Privacy Policy",  "/help" %></li>
+      <li class="footer-link"><%= link_to "Contact Us",  "/contact" %></li>
     </div>
     <div class="policy">
-      <li class=footer-link><%= link_to "About us",  "/about" %></li>
-      <li class=footer-link><%= link_to "Terms & Conditions",  "/terms-and-conditions" %></li>
+      <h6>About</h6>
+      <li class="footer-link"><%= link_to "Our story",  "/about" %></li>
+      <li class="footer-link"><%= link_to "Terms & Conditions",  "/terms-and-conditions" %></li>
     </div>
     <div class="social-media">
-      <li class=footer-link><i class="fab fa-instagram"></i></li>
-      <li class=footer-link><i class="fab fa-facebook-f"></i></li>
+      <h6>Social</h6>
+      <div class="social-media-links d-flex">
+        <div class="footer-link pr-3">
+          <%= link_to  "/about" do %>
+            <%= fa_icon 'instagram' %>
+          <% end %>
+        </div>
+        <div class="footer-link pr-3">
+          <%= link_to  "/about" do %>
+            <%= fa_icon 'facebook' %>
+          <% end %>
+        </div>
+      </div>
+
+      <!-- <li class=footer-link><i class="fab fa-facebook-f"></i></li> -->
     </div>
   </div>
 </div>
