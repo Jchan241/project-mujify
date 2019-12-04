@@ -28,5 +28,6 @@ module ApplicationHelper
       end
 
       link_to text.html_safe, spree.cart_path, class: "cart-info nav-link #{css_class}"
+      # content_tag(:div, simple_current_order.item_count.to_s, class: ["cart_count"])
     end
 end

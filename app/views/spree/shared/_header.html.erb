@@ -39,13 +39,18 @@
       </form>
     </div>
 
-    <div id="link-to-cart" class="nav-item" data-hook>
-      <noscript>
-        <%= link_to_carts %>
-      </noscript>
-      &nbsp;
+    <div class="cart-header">
+      <div id="link-to-cart" class="nav-item" data-hook>
+        <noscript>
+          <%= link_to_carts %>
+        </noscript>
+        &nbsp;
+      </div>
+      <!-- <div class="cart_count">
+        <%#= simple_current_order.item_count.to_s %>
+      </div> -->
+      <script>Spree.fetch_cart()</script>
     </div>
-    <script>Spree.fetch_cart()</script>
   <% end %>
 </nav>
 

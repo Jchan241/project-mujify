@@ -14,3 +14,19 @@ nav a img {
 .full-bag {
   color: green;
 }
+
+.cart-header {
+  position: relative;
+}
+
+.cart_count {
+  position: absolute;
+  top: 24px;
+  left: 42px;
+  border: green solid 1px;
+  border-radius: 100%;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  background-color: green;
+}
