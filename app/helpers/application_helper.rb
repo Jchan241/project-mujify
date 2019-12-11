@@ -27,7 +27,15 @@ module ApplicationHelper
         # css_class = 'full'
       end
 
-      link_to text.html_safe, spree.cart_path, class: "cart-info nav-link #{css_class}"
+      link_to(spree.cart_path) do
+        content_tag(:div, class: "cart-info nav-link #{css_class}") do
+          text.html_safe +
+          content_tag(:div, simple_current_order.item_count, class: "cart_count")
+        end
+      end
+        # content_tag :div, simple_current_order.item_count
+
+      # link_to text.html_safe, spree.cart_path, class: "cart-info nav-link #{css_class}"
       # content_tag(:div, simple_current_order.item_count.to_s, class: ["cart_count"])
     end
 end
