@@ -11,7 +11,7 @@
 # config.setting_name = 'new value'
 
 Spree.config do |config|
-  config.logo = 'logo/hklogo.png'
+  config.logo = 'logo/Migu-logo big U.svg'
   # Example:
   # Uncomment to stop tracking inventory levels in the application
   # config.track_inventory_levels = false
