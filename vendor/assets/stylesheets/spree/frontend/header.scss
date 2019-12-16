@@ -7,12 +7,12 @@ nav a img {
   margin-right: 24px;
 }
 
-.fa-shopping-cart {
-  font-size: 2em !important;
+.full-cart {
+  color: #444;
 }
 
-.full-bag {
-  color: green;
+.empty-cart {
+  color: #444;
 }
 
 .cart-info {
@@ -21,13 +21,13 @@ nav a img {
 
 .cart_count {
   position: absolute;
-  top: 24px;
+  top: 32px;
   left: 42px;
-  border: green solid 1px;
+  border: #444 solid 1px;
   border-radius: 100%;
   width: 24px;
   height: 24px;
   text-align: center;
-  background-color: green;
+  background-color: #444;
   color: white;
 }

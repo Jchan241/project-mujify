@@ -1,0 +1,14 @@
+.top_nav {
+  background-color: #333;
+  color: white;
+  justify-content: flex-end;
+}
+
+.nav_login {
+  text-decoration: none;
+  color: white;
+  &:hover {
+    color: #bbb;
+    text-decoration: none;
+  }
+}

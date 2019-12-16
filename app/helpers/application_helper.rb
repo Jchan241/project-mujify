@@ -16,10 +16,11 @@ module ApplicationHelper
       css_class = nil
 
       if simple_current_order.nil? || simple_current_order.item_count.zero?
-        text = fa_icon 'shopping-cart'
+        text = mdi_tag('cart-outline 36px', class: 'empty-cart')
         css_class = 'empty'
       else
-        text = fa_icon 'shopping-cart', class: 'full-bag'
+        # text = '<i class="mi face"></i>'
+        text = mdi_tag('cart-outline 36px', class: 'full-cart')
         css_class = 'full'
 
         # text = "<span class='fas fa-shopping-bag'></span> #{text}: (#{simple_current_order.item_count})
@@ -30,7 +31,9 @@ module ApplicationHelper
       link_to(spree.cart_path) do
         content_tag(:div, class: "cart-info nav-link #{css_class}") do
           text.html_safe +
-          content_tag(:div, simple_current_order.item_count, class: "cart_count")
+          if simple_current_order.item_count > 0
+            content_tag(:div, simple_current_order.item_count, class: "cart_count")
+          end
         end
       end
         # content_tag :div, simple_current_order.item_count
@@ -39,3 +42,7 @@ module ApplicationHelper
       # content_tag(:div, simple_current_order.item_count.to_s, class: ["cart_count"])
     end
 end
+
+
+# +
+#           content_tag(:div, simple_current_order.item_count, class: "cart_count")

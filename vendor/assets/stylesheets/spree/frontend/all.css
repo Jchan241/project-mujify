@@ -9,4 +9,6 @@
  *= require_tree .
  *= require spree/frontend/spree_static_content
  *= require font-awesome
+ *= require material_icons
+ *= require materialdesignicons
 */
