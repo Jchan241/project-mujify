@@ -16,11 +16,11 @@ module ApplicationHelper
       css_class = nil
 
       if simple_current_order.nil? || simple_current_order.item_count.zero?
-        text = mdi_tag('cart-outline 36px', class: 'empty-cart')
+        text = mdi_tag('cart-outline 24px', class: 'empty-cart')
         css_class = 'empty'
       else
         # text = '<i class="mi face"></i>'
-        text = mdi_tag('cart-outline 36px', class: 'full-cart')
+        text = mdi_tag('cart-outline 24px', class: 'full-cart')
         css_class = 'full'
 
         # text = "<span class='fas fa-shopping-bag'></span> #{text}: (#{simple_current_order.item_count})

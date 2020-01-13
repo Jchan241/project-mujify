@@ -1,5 +1,6 @@
 nav {
   height: 112px;
+  z-index: 100;
 }
 
 nav a img {
@@ -7,27 +8,3 @@ nav a img {
   margin-right: 24px;
 }
 
-.full-cart {
-  color: #444;
-}
-
-.empty-cart {
-  color: #444;
-}
-
-.cart-info {
-  position: relative;
-}
-
-.cart_count {
-  position: absolute;
-  top: 32px;
-  left: 42px;
-  border: #444 solid 1px;
-  border-radius: 100%;
-  width: 24px;
-  height: 24px;
-  text-align: center;
-  background-color: #444;
-  color: white;
-}
