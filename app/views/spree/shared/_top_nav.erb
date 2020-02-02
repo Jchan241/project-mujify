@@ -2,19 +2,21 @@
   <% if !spree_user_signed_in? %>
     <%= link_to("login/signup", spree.login_path, class: "nav_login") %>
   <% end %>
-  <form class="form-inline my-2 my-lg-0">
-    <%= render partial: 'spree/shared/search' %>
-  </form>
-  <div class="cart-header">
-    <div id="link-to-cart" class="nav-item" data-hook>
-      <noscript>
-        <%= link_to_carts %>
-      </noscript>
-      &nbsp;
+  <div class="d-flex">
+    <form class="form-inline my-2 my-lg-0">
+      <%= render partial: 'spree/shared/search' %>
+    </form>
+    <div class="cart-header">
+      <div id="link-to-cart" class="nav-item" data-hook>
+        <noscript>
+          <%= link_to_carts %>
+        </noscript>
+        &nbsp;
+      </div>
+      <!-- <div class="cart_count">
+        <%#= simple_current_order.item_count.to_s %>
+      </div> -->
+      <script>Spree.fetch_cart()</script>
     </div>
-    <!-- <div class="cart_count">
-      <%#= simple_current_order.item_count.to_s %>
-    </div> -->
-    <script>Spree.fetch_cart()</script>
   </div>
 </div>
