@@ -21,6 +21,9 @@ gem 'material_design_icons'
 
 gem 'material_icons'
 
+gem 'square.rb'
+
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.0'
