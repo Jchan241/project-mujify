@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_30_070258) do
+ActiveRecord::Schema.define(version: 2020_02_20_022825) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -442,7 +442,9 @@ ActiveRecord::Schema.define(version: 2019_10_30_070258) do
     t.boolean "auto_capture"
     t.text "preferences"
     t.integer "position", default: 0
+    t.bigint "store_id"
     t.index ["id", "type"], name: "index_spree_payment_methods_on_id_and_type"
+    t.index ["store_id"], name: "index_spree_payment_methods_on_store_id"
   end
 
   create_table "spree_payments", id: :serial, force: :cascade do |t|
@@ -993,6 +995,9 @@ ActiveRecord::Schema.define(version: 2019_10_30_070258) do
     t.boolean "default", default: false, null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "facebook"
+    t.string "twitter"
+    t.string "instagram"
     t.index "lower((code)::text)", name: "index_spree_stores_on_lower_code", unique: true
     t.index ["default"], name: "index_spree_stores_on_default"
     t.index ["url"], name: "index_spree_stores_on_url"
@@ -1050,6 +1055,7 @@ ActiveRecord::Schema.define(version: 2019_10_30_070258) do
     t.string "meta_description"
     t.string "meta_keywords"
     t.integer "depth"
+    t.boolean "hide_from_nav", default: false
     t.index ["lft"], name: "index_spree_taxons_on_lft"
     t.index ["name"], name: "index_spree_taxons_on_name"
     t.index ["parent_id"], name: "index_taxons_on_parent_id"
