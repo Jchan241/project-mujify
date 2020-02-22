@@ -1,16 +1,16 @@
-# module Spree
-#   module StoreControllerDecorator
-#     def self.prepended(base)
-#         base.before_action :load_taxonomies
-#       end
+module Spree
+  module StoreControllerDecorator
+    # def self.prepended(base)
+    #     base.before_action :load_taxonomies
+    #   end
 
-#     private
+    # private
 
-#     def load_taxonomies
-#       @taxonomies = Spree::Taxonomy.includes(root: :children)
-#     end
+    # def load_taxonomies
+    #   @taxonomies = Spree::Taxonomy.includes(root: :children)
+    # end
 
-#   end
-# end
+  end
+end
 
 # Spree::StoreController.prepend Spree::StoreControllerDecorator
