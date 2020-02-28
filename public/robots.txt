@@ -7,3 +7,14 @@ Disallow: /user
 Disallow: /account
 Disallow: /api
 Disallow: /password
+User-agent: *
+Disallow: /checkout
+Disallow: /cart
+Disallow: /orders
+Disallow: /user
+Disallow: /account
+Disallow: /api
+Disallow: /password
+Disallow: /api_tokens
+Disallow: /cart_link
+Disallow: /account_link

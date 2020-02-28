@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.5.3'
 
 gem 'spree', '~> 4.1.0.rc1'
 gem 'spree_auth_devise', '~> 4.1.0.rc1'
@@ -22,6 +21,9 @@ gem 'material_design_icons'
 gem 'material_icons'
 
 gem 'square.rb'
+
+gem 'spree_mail_settings', github: 'Jchan241/spree_mail_settings'
+
 
 
 

@@ -1,4 +1,12 @@
 GIT
+  remote: https://github.com/Jchan241/spree_mail_settings.git
+  revision: 30dac3c757dfdcf01273d6bba7830a2cc3389a20
+  specs:
+    spree_mail_settings (3.3.0)
+      spree_auth_devise (>= 3.1.0, < 5.0)
+      spree_backend (>= 3.1.0, < 5.0)
+
+GIT
   remote: https://github.com/spree-contrib/spree_static_content.git
   revision: a1e066bc612d373d18bc556e3d4229d67781c57b
   specs:
@@ -49,7 +57,7 @@ GEM
     activejob (6.0.2.1)
       activesupport (= 6.0.2.1)
       globalid (>= 0.3.6)
-    activemerchant (1.104.0)
+    activemerchant (1.105.0)
       activesupport (>= 4.2)
       builder (>= 2.1.2, < 4.0.0)
       i18n (>= 0.6.9)
@@ -80,7 +88,7 @@ GEM
       activerecord (>= 4.0.0, < 7.0)
     bcrypt (3.1.13)
     bindex (0.8.1)
-    bootsnap (1.4.5)
+    bootsnap (1.4.6)
       msgpack (~> 1.0)
     bootstrap (4.3.1)
       autoprefixer-rails (>= 9.1.0)
@@ -224,7 +232,7 @@ GEM
       actionmailer (>= 3)
       premailer (~> 1.7, >= 1.7.9)
     public_suffix (4.0.3)
-    puma (3.12.2)
+    puma (3.12.3)
     rabl (0.14.2)
       activesupport (>= 2.3.14)
     rack (2.2.2)
@@ -268,7 +276,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    regexp_parser (1.6.0)
+    regexp_parser (1.7.0)
     responders (3.0.0)
       actionpack (>= 5.0)
       railties (>= 5.0)
@@ -317,7 +325,7 @@ GEM
       fast_jsonapi (~> 1.5)
       rabl (~> 0.14.2)
       spree_core (= 4.1.0.rc3)
-    spree_auth_devise (4.1.0.rc1)
+    spree_auth_devise (4.1.0)
       deface (~> 1.0)
       devise (~> 4.7)
       devise-encryptable (= 0.2.0)
@@ -370,7 +378,7 @@ GEM
       spree_api (= 4.1.0.rc3)
       spree_core (= 4.1.0.rc3)
       turbolinks (~> 5.2.0)
-    spree_gateway (3.7.0)
+    spree_gateway (3.7.2)
       spree_core (>= 3.1.0, < 5.0)
       spree_extension
     spree_sample (4.1.0.rc3)
@@ -386,7 +394,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    square.rb (4.1.0.20200122)
+    square.rb (5.0.0.20200226)
       certifi (~> 2018.1)
       faraday (~> 0.15)
       faraday-http-cache (~> 2.0)
@@ -406,7 +414,7 @@ GEM
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
-    twitter_cldr (5.3.0)
+    twitter_cldr (5.4.0)
       camertron-eprun
       cldr-plurals-runtime-rb (~> 1.0)
       tzinfo
@@ -456,6 +464,7 @@ DEPENDENCIES
   spree_api
   spree_auth_devise (~> 4.1.0.rc1)
   spree_gateway (~> 3.7)
+  spree_mail_settings!
   spree_static_content!
   spring
   spring-watcher-listen (~> 2.0.0)
@@ -465,9 +474,6 @@ DEPENDENCIES
   web-console (>= 3.3.0)
   webdrivers
   webpacker (~> 4.0)
-
-RUBY VERSION
-   ruby 2.5.3p105
 
 BUNDLED WITH
    2.0.2
