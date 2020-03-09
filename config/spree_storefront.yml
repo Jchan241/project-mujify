@@ -1,21 +1,23 @@
 default:
   navigation:
-    - title: Women
+    - title: Personal Care
       subtitle: Categories
-      url: /t/women
+      url: /t/personal-care
       items:
-        - :title: Skirts
-          :url: /t/women/skirts
-        - :title: Dresses
-          :url: /t/women/dresses
-        - :title: Shirts and Blouses
-          :url: /t/women/shirts-and-blouses
-        - :title: Sweaters
-          :url: /t/women/sweaters
-        - :title: Tops and T-shirts
-          :url: /t/women/tops-and-t-shirts
-        - :title: Jackets and Coats
-          :url: /t/women/jackets-and-coats
+        - :title: Cleanser
+          :url: /t/personal-care/Cleanser
+        - :title: Moisturiser
+          :url: /t/personal-care/Moisturiser
+        - :title: Essence/Serum/Ampoule
+          :url: /t/personal-care/Essence
+        - :title: Toner
+          :url: /t/personal-care/Toner
+        - :title: Masks/Packs
+          :url: /t/personal-care/Masks
+        - :title: Patches
+          :url: /t/personal-care/patches
+        - :title: Sets/Gifts
+          :url: /t/personal-care/Sets
       promo_banners:
         - subtitle: New collection
           title: Summer 2019
