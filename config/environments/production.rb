@@ -62,6 +62,10 @@ Rails.application.configure do
 
   config.action_mailer.perform_caching = false
 
+  config.active_storage.service = :amazon
+
+
+
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
   # config.action_mailer.raise_delivery_errors = false
