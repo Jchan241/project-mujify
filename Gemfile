@@ -2,8 +2,8 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 
-gem 'spree', '~> 4.1.0.rc1'
-gem 'spree_auth_devise', '~> 4.1.0.rc1'
+gem 'spree', '~> 4.1'
+gem 'spree_auth_devise', '~> 4.1'
 gem 'spree_gateway', '~> 3.7'
 
 gem 'pg'
@@ -22,9 +22,7 @@ gem 'material_icons'
 
 gem 'square.rb'
 
-gem 'spree_mail_settings', github: 'Jchan241/spree_mail_settings'
-
-
+# gem 'spree_mail_settings', path: '../spree_mail_settings'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

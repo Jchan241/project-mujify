@@ -17,7 +17,6 @@ Spree.config do |config|
   config.logo = 'logo/Migu-logo big U.svg'
 end
 
-
 # Configure Spree Dependencies
 #
 # Note: If a dependency is set here it will NOT be stored within the cache & database upon initialization.
