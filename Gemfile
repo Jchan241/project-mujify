@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.5.8'
+ruby '2.5.3'
 
 gem 'spree', '~> 4.1'
 gem 'spree_auth_devise', '~> 4.1'
