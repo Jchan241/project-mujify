@@ -13,10 +13,8 @@ Spree.config do |config|
   # Example:
   # Uncomment to stop tracking inventory levels in the application
   # config.track_inventory_levels = false
-  config.currency = 'USD'
-  config.logo = 'logo/Migu-logo big U.svg'
-end
 
+end
 
 # Configure Spree Dependencies
 #
@@ -29,23 +27,18 @@ Spree.dependencies do |dependencies|
   # dependencies.cart_add_item_service = 'MyNewAwesomeService'
 end
 
-
-Spree.user_class = "Spree::User"
-
-
-
 # attachment_config = {
 #   s3_credentials: {
-#     access_key_id:     ENV['AKIA25ZSEP2Q5B7FT2XE'],
-#     secret_access_key: ENV['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'],
-#     bucket:            ENV['arn:aws:s3:::project-mujify']
+#     access_key_id:     ENV['AWS_ACCESS_KEY_ID'],
+#     secret_access_key: ENV['AWS_SECRET_ACCESS_KEY'],
+#     bucket:            ENV['S3_BUCKET_NAME']
 #   },
 
 #   storage:        :s3,
 #   s3_region:      ENV['S3_REGION'],
 #   s3_headers:     { "Cache-Control" => "max-age=31557600" },
 #   s3_protocol:    "https",
-#   bucket:         ENV['arn:aws:s3:::project-mujify'],
+#   bucket:         ENV['S3_BUCKET_NAME'],
 #   url:            ":s3_domain_url",
 
 #   path:           "/:class/:id/:style/:basename.:extension",
@@ -55,3 +48,5 @@ Spree.user_class = "Spree::User"
 # attachment_config.each do |key, value|
 #   Spree::Image.attachment_definitions[:attachment][key.to_sym] = value
 # end
+
+Spree.user_class = "Spree::LegacyUser"

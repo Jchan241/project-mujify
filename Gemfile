@@ -24,7 +24,7 @@ gem 'square.rb'
 
 # gem 'spree_mail_settings', path: '../spree_mail_settings'
 
-gem 'aws-sdk-s3', require: false
+gem 'aws-sdk-s3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.0'

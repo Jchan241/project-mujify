@@ -1,23 +1,21 @@
 default:
   navigation:
-    - title: Personal Care
+    - title: Women
       subtitle: Categories
-      url: /t/personal-care
+      url: /t/women
       items:
-        - :title: Cleanser
-          :url: /t/personal-care/cleanser
-        - :title: Moisturiser
-          :url: /t/personal-care/moisturiser
-        - :title: Essence/Serum/Ampoule
-          :url: /t/personal-care/essence
-        - :title: Toner
-          :url: /t/personal-care/toner
-        - :title: Masks/Packs
-          :url: /t/personal-care/masks
-        - :title: Patches
-          :url: /t/personal-care/patches
-        - :title: Sets/Gifts
-          :url: /t/personal-care/sets
+        - :title: Skirts
+          :url: /t/women/skirts
+        - :title: Dresses
+          :url: /t/women/dresses
+        - :title: Shirts and Blouses
+          :url: /t/women/shirts-and-blouses
+        - :title: Sweaters
+          :url: /t/women/sweaters
+        - :title: Tops and T-shirts
+          :url: /t/women/tops-and-t-shirts
+        - :title: Jackets and Coats
+          :url: /t/women/jackets-and-coats
       promo_banners:
         - subtitle: New collection
           title: Summer 2019
@@ -27,18 +25,18 @@ default:
           title: Get up to 30% off
           url: /t/special-offers/30-off
           image: 'meganav/promo_banner_right-first-category.jpg'
-    - title: Electronics
+    - title: Men
       subtitle: Categories
-      url: /t/Electronics
+      url: /t/men
       items:
-        - :title: Cables
-          :url: /t/Electronics/cables
-        - :title: Appliances
-          :url: /t/Electronics/appliances
-        - :title: Home
-          :url: /t/Electronics/home
-        - :title: Mobile
-          :url: /t/Electronics/mobile
+        - :title: Shirts
+          :url: /t/men/shirts
+        - :title: T-shirts
+          :url: /t/men/t-shirts
+        - :title: Sweaters
+          :url: /t/men/sweaters
+        - :title: Jackets and Coats
+          :url: /t/men/jackets-and-coats
       promo_banners:
         - subtitle: New collection
           title: Summer 2019
@@ -48,9 +46,9 @@ default:
           title: Get up to 30% off
           url: /t/special-offers/30-off
           image: 'meganav/promo_banner_right-second-category.jpg'
-    - title: Brands
+    - title: Sportswear
       subtitle: Categories
-      url: /t/brands
+      url: /t/sportswear
       items:
         - :title: Tops
           :url: /t/sportswear/tops
