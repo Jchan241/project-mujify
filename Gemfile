@@ -25,6 +25,9 @@ gem 'square.rb'
 
 gem 'dotenv-rails', groups: [:development, :test]
 
+gem 'spree_mail_settings', path: '../spree_mail_settings'
+
+
 # gem 'spree_mail_settings', path: '../spree_mail_settings'
 
 gem 'aws-sdk-s3'
