@@ -27,6 +27,8 @@ gem 'dotenv-rails', groups: [:development, :test]
 
 gem 'spree_mail_settings', github: 'jchan241/spree_mail_settings'
 
+gem 'airbrake'
+
 
 # gem 'spree_mail_settings', path: '../spree_mail_settings'
 
