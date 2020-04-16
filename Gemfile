@@ -21,13 +21,19 @@ gem 'material_design_icons'
 
 gem 'material_icons'
 
+# Pending square payment implementation
 gem 'square.rb'
 
 gem 'dotenv-rails', groups: [:development, :test]
 
+#mail integration
 gem 'spree_mail_settings', github: 'jchan241/spree_mail_settings'
 
+# Performance monitor
 gem 'airbrake'
+
+# Google analytics integration
+gem 'spree_analytics_trackers', '~> 1.1'
 
 
 # gem 'spree_mail_settings', path: '../spree_mail_settings'
