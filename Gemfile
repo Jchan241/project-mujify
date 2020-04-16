@@ -13,8 +13,6 @@ gem 'spree_api'
 
 gem 'spree_static_content', github: 'spree-contrib/spree_static_content'
 
-gem 'spree_analytics_trackers', '~> 1.0'
-
 gem 'font-awesome-rails'
 
 gem 'material_design_icons'
