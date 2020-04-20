@@ -1,42 +1,36 @@
 default:
   navigation:
-    - title: Women
+    - title: Noodles
       subtitle: Categories
-      url: /t/women
+      url: /t/noodles
       items:
-        - :title: Skirts
-          :url: /t/women/skirts
-        - :title: Dresses
-          :url: /t/women/dresses
-        - :title: Shirts and Blouses
-          :url: /t/women/shirts-and-blouses
-        - :title: Sweaters
-          :url: /t/women/sweaters
-        - :title: Tops and T-shirts
-          :url: /t/women/tops-and-t-shirts
-        - :title: Jackets and Coats
-          :url: /t/women/jackets-and-coats
+        - :title: Instant
+          :url: /t/noodles/instant
+        - :title: Dried
+          :url: /t/noodles/dried
+        - :title: fresh
+          :url: /t/noodles/fresh
       promo_banners:
-        - subtitle: New collection
+        - subtitle: Special Offers
           title: Summer 2019
           url: /t/new-collection/summer-2019
           image: 'meganav/promo_banner_left-first-category.jpg'
-        - subtitle: Special Offers
+        - subtitle: Sale
           title: Get up to 30% off
           url: /t/special-offers/30-off
           image: 'meganav/promo_banner_right-first-category.jpg'
-    - title: Men
+    - title: Snacks
       subtitle: Categories
-      url: /t/men
+      url: /t/snacks
       items:
-        - :title: Shirts
-          :url: /t/men/shirts
-        - :title: T-shirts
-          :url: /t/men/t-shirts
-        - :title: Sweaters
-          :url: /t/men/sweaters
-        - :title: Jackets and Coats
-          :url: /t/men/jackets-and-coats
+        - :title: Chips
+          :url: /t/snacks/chips
+        - :title: Biscuit
+          :url: /t/snacks/Biscuit
+        - :title: Sweets
+          :url: /t/snacks/sweets
+        - :title: Jelly
+          :url: /t/snacks/jelly
       promo_banners:
         - subtitle: New collection
           title: Summer 2019
@@ -46,16 +40,14 @@ default:
           title: Get up to 30% off
           url: /t/special-offers/30-off
           image: 'meganav/promo_banner_right-second-category.jpg'
-    - title: Sportswear
+    - title: Rice/Flour
       subtitle: Categories
-      url: /t/sportswear
+      url: /t/rice-flour
       items:
         - :title: Tops
-          :url: /t/sportswear/tops
-        - :title: Sweatshirts
-          :url: /t/sportswear/sweatshirts
-        - :title: Pants
-          :url: /t/sportswear/pants
+          :url: /t/rice-flour/rice
+        - :title: flour
+          :url: /t/rice-flour/flour
       promo_banners:
         - subtitle: New collection
           title: Summer 2019
@@ -65,16 +57,18 @@ default:
           title: Get up to 30% off
           url: /t/special-offers/30-off
           image: 'meganav/promo_banner_right-third-category.jpg'
-    - title: test
+    - title: Sauce
       subtitle: Categories
-      url: /t/sportswear
+      url: /t/sauce
       items:
-        - :title: Tops
-          :url: /t/sportswear/tops
-        - :title: Sweatshirts
-          :url: /t/sportswear/sweatshirts
-        - :title: Pants
-          :url: /t/sportswear/pants
+        - :title: chilli
+          :url: /t/sauce/chilli
+        - :title: fish
+          :url: /t/sauce/fish
+        - :title: soy
+          :url: /t/sauce/soy
+        - :title: Satay
+          :url: /t/sauce/satay
       promo_banners:
         - subtitle: New collection
           title: Summer 2019
@@ -84,43 +78,18 @@ default:
           title: Get up to 30% off
           url: /t/special-offers/30-off
           image: 'meganav/promo_banner_right-third-category.jpg'
-    - title: Women
+    - title: Drinks
       subtitle: Categories
-      url: /t/women
+      url: /t/drinks
       items:
-        - :title: Skirts
-          :url: /t/women/skirts
-        - :title: Dresses
-          :url: /t/women/dresses
-        - :title: Shirts and Blouses
-          :url: /t/women/shirts-and-blouses
-        - :title: Sweaters
-          :url: /t/women/sweaters
-        - :title: Tops and T-shirts
-          :url: /t/women/tops-and-t-shirts
-        - :title: Jackets and Coats
-          :url: /t/women/jackets-and-coats
-      promo_banners:
-        - subtitle: New collection
-          title: Summer 2019
-          url: /t/new-collection/summer-2019
-          image: 'meganav/promo_banner_left-first-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-off
-          image: 'meganav/promo_banner_right-first-category.jpg'
-    - title: Men
-      subtitle: Categories
-      url: /t/men
-      items:
-        - :title: Shirts
-          :url: /t/men/shirts
-        - :title: T-shirts
-          :url: /t/men/t-shirts
-        - :title: Sweaters
-          :url: /t/men/sweaters
-        - :title: Jackets and Coats
-          :url: /t/men/jackets-and-coats
+        - :title: canned
+          :url: /t/drinks/canned
+        - :title: Tea
+          :url: /t/drinks/tea
+        - :title: Coffee
+          :url: /t/drinks/coffee
+        - :title: bulk
+          :url: /t/drinks/bulk
       promo_banners:
         - subtitle: New collection
           title: Summer 2019
@@ -130,16 +99,16 @@ default:
           title: Get up to 30% off
           url: /t/special-offers/30-off
           image: 'meganav/promo_banner_right-second-category.jpg'
-    - title: Sportswear
+    - title: Canned
       subtitle: Categories
-      url: /t/sportswear
+      url: /t/canned
       items:
-        - :title: Tops
-          :url: /t/sportswear/tops
-        - :title: Sweatshirts
-          :url: /t/sportswear/sweatshirts
-        - :title: Pants
-          :url: /t/sportswear/pants
+        - :title: meat
+          :url: /t/canned/meat
+        - :title: fruits
+          :url: /t/canned/fruits
+        - :title: vegetable
+          :url: /t/canned/vegetable
       promo_banners:
         - subtitle: New collection
           title: Summer 2019
@@ -149,13 +118,13 @@ default:
           title: Get up to 30% off
           url: /t/special-offers/30-off
           image: 'meganav/promo_banner_right-third-category.jpg'
-    - title: test
+    - title: Spices
       subtitle: Categories
-      url: /t/sportswear
+      url: /t/spices
       items:
-        - :title: Tops
-          :url: /t/sportswear/tops
-        - :title: Sweatshirts
-          :url: /t/sportswear/sweatshirts
-        - :title: Pants
-          :url: /t/sportswear/pants
+        - :title: herbs
+          :url: /t/spices/herbs
+        - :title: seafood
+          :url: /t/spices/seafood
+        - :title: seasoning
+          :url: /t/spices/seasoning
