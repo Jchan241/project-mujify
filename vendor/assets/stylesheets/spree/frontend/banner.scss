@@ -1,15 +1,7 @@
-.banner {
-  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('https://res.cloudinary.com/deplit1df/image/upload/v1572392382/hand-wood-guitar-interior-cooking-kitchen-722995-pxhere.com_yehbjn.jpg');
+.hero-image {
+  filter: brightness(60%);
   // background: url('https://res.cloudinary.com/deplit1df/image/upload/v1572392382/hand-wood-guitar-interior-cooking-kitchen-722995-pxhere.com_yehbjn.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 60vh;
-  background-color: #E2EAE7;
-  padding: 150px 0;
-  margin-bottom: 2em;
-  width: 100vw;
-  position: relative;
-  left: calc(-50vw + 50%);
+
 }
 
 .banner-content {
@@ -27,4 +19,8 @@
   .banner {
     height: calc(100vh - 116px);
   }
+}
+
+.homepage-hero-image-text {
+  color: white;
 }

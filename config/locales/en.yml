@@ -32,4 +32,5 @@
 en:
   hello: "Hello world"
   spree:
-    homepage.summer_collection: "test"
+    homepage:
+      banner-text: "Opening Soon"

@@ -44,7 +44,7 @@ default:
       subtitle: Categories
       url: /t/rice-flour
       items:
-        - :title: Tops
+        - :title: rice
           :url: /t/rice-flour/rice
         - :title: flour
           :url: /t/rice-flour/flour
